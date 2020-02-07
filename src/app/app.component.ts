@@ -12,7 +12,7 @@ import { zippyDeps } from './zippy.component';
   `,
 })
 export class AppComponent {
-  title = 'Hello World';
+  title = 'hello world';
 }
 
 @NgModule({
