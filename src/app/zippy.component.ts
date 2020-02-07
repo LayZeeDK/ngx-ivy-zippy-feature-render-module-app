@@ -1,4 +1,4 @@
-import { Component, Input, ɵmarkDirty as markDirty } from '@angular/core';
+import { Component, Input, ɵmarkDirty } from '@angular/core';
 
 import { ButtonDirective } from './button.directive';
 
@@ -22,7 +22,7 @@ export class ZippyComponent {
 
   onToggle() {
     this.isExpanded = !this.isExpanded;
-    markDirty(this);
+    ɵmarkDirty(this);
   }
 }
 
